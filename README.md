@@ -22,13 +22,47 @@ This project implements an audio transcription application using React, Deepgram
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/audio-trans.git
-   cd audio-trans
+   git clone https://github.com/Arun02DS/AudiotoText.git
+   ```
+2. **Install Dependencies:**
+   ```bash
+   npm install @deepgram/sdk axios cors dotenv express multer react react-dom react-scripts web-vitals
+   ```
+   ```bash
+   npm install @testing-library/jest-dom @testing-library/react identity-obj-proxy jest tailwindcss --save-dev
+   ```
+
+# How to run
+
+## First start the server 
+
+```bash
+   node server.js
+```
+
+## start the react app
+
+```bash
+ npm start
+ ```
+
+## For testing 
+
+```bash
+npm test
+```
+
+# Workflow
+
+1. Recording Audio: Users can start recording audio through the microphone component.
+2. Transcription: The recorded audio is sent to the Deepgram API for transcription.
+3. Displaying Transcription: The transcribed text is displayed in real-time on the UI.
+4. Styling: The application is styled using Tailwind CSS for a clean and responsive layout.
+5. Testing: Tests are written using Jest and React Testing Library to ensure the functionality of components.
 
 
+######################################################################################################
 
-##########################################################################################################################
-##########################################################################################################################
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

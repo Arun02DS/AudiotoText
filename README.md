@@ -37,13 +37,13 @@ This project implements an audio transcription application using React, Deepgram
 ## First start the server 
 
 ```bash
-   node server.js
+node server.js
 ```
 
 ## start the react app
 
 ```bash
- npm start
+npm start
  ```
 
 ## For testing 
@@ -51,6 +51,35 @@ This project implements an audio transcription application using React, Deepgram
 ```bash
 npm test
 ```
+
+## Tailwind CSS setup
+
+### install dependencies
+```bash
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+### config tailwind.config.js
+### Create a input.css file in src directory
+```bash
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+```
+### Modify package.json
+```
+"scripts": {
+  "build:css": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+}
+```
+### run command
+```bash
+npm run build:css
+```
+
+### Import output.css in your project.
+
 
 # Workflow
 

@@ -1,3 +1,34 @@
+# Audio Transcription Project
+
+This project implements an audio transcription application using React, Deepgram SDK, and other libraries. The application allows users to record audio, transcribe it in real-time, and display the transcription on the UI.
+
+## Features
+
+- Real-time audio recording
+- Transcription of audio using Deepgram
+- Responsive and intuitive user interface
+- Customizable styles using Tailwind CSS
+
+## Technologies Used
+
+- React
+- Deepgram SDK
+- Express.js
+- Axios
+- Tailwind CSS
+- Jest and React Testing Library for testing
+
+## Setup and Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/audio-trans.git
+   cd audio-trans
+
+
+
+##########################################################################################################################
+##########################################################################################################################
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

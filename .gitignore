@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# Node modules
+node_modules/
+
 # testing
 /coverage
 
@@ -21,3 +24,60 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# Build output
+build/
+dist/
+output.css
+
+# React Scripts
+/.env
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Coverage
+coverage/
+*.lcov
+
+# Jest test results
+*.test.js
+
+# Yarn and npm
+yarn-error.log
+yarn-debug.log
+
+# JetBrains project files
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# Storybook build output
+out/
+storybook-static/
+
+# Miscellaneous
+*.tgz
+
